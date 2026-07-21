@@ -62,6 +62,12 @@ Install these via the Arduino Library Manager:
 
 ---
 
+## 3D Printed Parts
+
+The chassis and leg components are based on [Regis Hsu's Spider Robot Design on Thingiverse](https://www.thingiverse.com/thing:1009659).
+
+---
+
 ## How to Run
 
 1. **Center Servos:** Before attaching the legs, upload `calibration/servo_90.ino` to set all 12 servos to their $90^\circ$ midpoint.
