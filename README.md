@@ -77,6 +77,11 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 ---
 
+## Demo
+[Watch the Quadruped Robot Demo Video](https://www.youtube.com/shorts/cDyD5-1qRg4)
+
+---
+
 ## Credits
 
 * Original base code by panerqiang@sunfounder.com (2015).
