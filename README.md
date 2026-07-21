@@ -26,9 +26,9 @@ Quadruped robot powered by an Arduino Pro Micro (ATmega32U4). Operates on 5V pow
 | :--- | :--- | :--- |
 | **OLED Display** | **SDA** (Data) | **A0** *(Software I2C)* |
 | **OLED Display** | **SCL** (Clock) | **A1** *(Software I2C)* |
-| **Leg 0 (Front Left)** | Coxa / Femur / Tibia | Pins `2`, `3`, `4` |
-| **Leg 1 (Front Right)**| Coxa / Femur / Tibia | Pins `5`, `6`, `7` |
-| **Leg 2 (Back Right)** | Coxa / Femur / Tibia | Pins `8`, `9`, `10` |
+| **Leg 0 (Front Left)** | Coxa / Femur / Tibia | Pins `8`, `9`, `10` |
+| **Leg 1 (Front Right)**| Coxa / Femur / Tibia | Pins `2`, `3`, `4` |
+| **Leg 2 (Back Right)** | Coxa / Femur / Tibia | Pins `5`, `6`, `7` |
 | **Leg 3 (Back Left)**  | Coxa / Femur / Tibia | Pins `16`, `14`, `15` |
 
 ---
