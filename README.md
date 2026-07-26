@@ -70,7 +70,7 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 ## How to Run
 
-1. **Center Servos:** Before attaching the legs, upload `calibration/servo_90.ino` to set all 12 servos to their $90^\circ$ midpoint.
+1. **Center Servos:** Before attaching the legs, upload `servo_90.ino` to set all 12 servos to their $90^\circ$ midpoint.
 2. **Assemble:** Mount the leg horns at $90^\circ$ angles relative to the chassis.
 3. **Upload Firmware:** Open `Quadruped_Spider.ino`, select **Arduino Leonardo**, and flash the sketch.
 4. **Test:** Open Serial Monitor, make sure Newline is enabled, and send `w 0 1` to stand the robot up!
