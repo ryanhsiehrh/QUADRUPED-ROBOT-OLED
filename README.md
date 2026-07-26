@@ -53,12 +53,12 @@ Set your Serial Monitor to **9600 Baud** and **Newline**. Type any of the follow
 
 ## Libraries
 
-Install these via the Arduino Library Manager:
+Install these via the Arduino Library Manager or online:
 
-* `U8g2` (for OLED screen rendering)
+* `U8g2` (for operating OLED screen)
 * `FlexiTimer2` (for 50Hz timer interrupts)
 * `SerialCommand` (for parsing serial input strings)
-* `Servo` (standard built-in library)
+* `Servo` (standard servo motor library)
 
 ---
 
@@ -72,7 +72,7 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 1. **Center Servos:** Before attaching the legs, upload `servo_90.ino` to set all 12 servos to their $90^\circ$ midpoint.
 2. **Assemble:** Mount the leg horns at $90^\circ$ angles relative to the chassis.
-3. **Upload Firmware:** Open `Quadruped_Spider.ino`, select **Arduino Leonardo**, and flash the sketch.
+3. **Upload Firmware:** Open `QUADRUPED-ROBOT-OLED.ino`, select **Arduino Leonardo**, and flash the sketch.
 4. **Test:** Open Serial Monitor, make sure Newline is enabled, and send `w 0 1` to stand the robot up!
 
 ---
