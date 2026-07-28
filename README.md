@@ -26,10 +26,10 @@ Quadruped robot powered by an Arduino Pro Micro (ATmega32U4). Operates on 5V pow
 | :--- | :--- | :--- |
 | **OLED Display** | **SDA** (Data) | **A0** *(Software I2C)* |
 | **OLED Display** | **SCL** (Clock) | **A1** *(Software I2C)* |
-| **Leg 0 (Front Left)** | Coxa / Femur / Tibia | Pins `8`, `9`, `10` |
-| **Leg 1 (Front Right)**| Coxa / Femur / Tibia | Pins `2`, `3`, `4` |
-| **Leg 2 (Back Right)** | Coxa / Femur / Tibia | Pins `5`, `6`, `7` |
-| **Leg 3 (Back Left)**  | Coxa / Femur / Tibia | Pins `16`, `14`, `15` |
+| **Leg 0 (Back Left)** | Coxa / Femur / Tibia | Pins `2`, `3`, `4` |
+| **Leg 1 (Front Left)**| Coxa / Femur / Tibia | Pins `5`, `6`, `7` |
+| **Leg 2 (Back Right)** | Coxa / Femur / Tibia | Pins `8`, `9`, `10` |
+| **Leg 3 (Front Right)**  | Coxa / Femur / Tibia | Pins `16`, `14`, `15` |
 
 ---
 
@@ -86,4 +86,4 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 * Original base code by panerqiang@sunfounder.com (2015).
 * Bluetooth remote and emote modifications by **RegisHsu** (2015).
-* Pro Micro migration, custom movement emotes, and Software I2C OLED face animation developed by **Ryan Hsieh**.
+* Pro Micro migration, custom movement emotes, Software I2C OLED face animation, and Kicad PCB and schematic developed by **Ryan Hsieh**.
