@@ -1,5 +1,6 @@
 # QUADRUPED-ROBOT-OLED
 Quadruped robot powered by an Arduino Pro Micro (ATmega32U4). Operates on 5V power, utilizing 12 servo motors for inverse kinematics and an animated OLED display face through Software I2C.
+<img src="images/Quadruped_robot.png" width="750">
 
 ##  What it does
 
@@ -30,6 +31,24 @@ Quadruped robot powered by an Arduino Pro Micro (ATmega32U4). Operates on 5V pow
 | **Leg 1 (Front Left)**| Coxa / Femur / Tibia | Pins `5`, `6`, `7` |
 | **Leg 2 (Back Right)** | Coxa / Femur / Tibia | Pins `8`, `9`, `10` |
 | **Leg 3 (Front Right)**  | Coxa / Femur / Tibia | Pins `16`, `14`, `15` |
+
+---
+
+## PCB Design
+
+* Simple 2-layer design with a solid ground plane on the back
+* Uses barrel jack for power connection
+* Specific area to hold the LM2596S Step Down Module
+* Contains SPDT switch to toggle power to servo motors ON or OFF
+
+**Schematic:**
+
+<img src="images/Schematic.png" width="750">
+
+**PCB:**
+
+<img src="images/PCB.png" width="750">
+<img src="images/PCB3DVIEW.png" width="750">
 
 ---
 
@@ -77,8 +96,8 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 ---
 
-## Demo
-[Watch the Quadruped Robot Demo Video](https://www.youtube.com/shorts/cDyD5-1qRg4)
+## Demo Video
+[Watch the Quadruped Robot video here!](https://www.youtube.com/watch?v=7HYvcp7Kx8c)
 
 ---
 
@@ -86,4 +105,4 @@ The chassis and leg components are based on [Regis Hsu's Spider Robot Design on 
 
 * Original base code by panerqiang@sunfounder.com (2015).
 * Bluetooth remote and emote modifications by **RegisHsu** (2015).
-* Pro Micro migration, custom movement emotes, Software I2C OLED face animation, and Kicad PCB and schematic developed by **Ryan Hsieh**.
+* Pro Micro migration, custom movement emotes, software I2C OLED face animation, Kicad schematic and PCB developed by **Ryan Hsieh**.
